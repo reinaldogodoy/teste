@@ -1,0 +1,4 @@
+import pandas as pd
+url = "https://img1.wsimg.com/blobby/go/0e8dd772-194a-451a-b521-950682e73f96/downloads/dezembro.xls?ver=1575413600296"
+dados = pd.read_excel (url)
+dados.describe()
